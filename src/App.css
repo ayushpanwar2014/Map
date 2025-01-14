@@ -1,0 +1,101 @@
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+}
+
+.app{
+    background-color: rgb(142, 205, 226);
+}
+
+
+.card{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label{
+    width: max-content;
+    color: tomato;
+    font-size: 13px;
+    border-bottom: 2px solid tomato;
+    margin: 3px 0;
+    font-weight: bolder;
+}
+
+.desc{
+    font-size: 14px;
+}
+
+.star{
+    color: gold;
+}
+
+.date{
+    font-size: 12px;
+}
+
+form{
+
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input, textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 12px;
+    color: gray;
+}
+
+.submitButton{
+    border: none;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    z-index: 999;
+    margin-left: 10px; 
+    cursor: pointer;
+}
+
+.logout{
+    background-color: tomato;
+}
+.login{
+    background-color: teal;
+    position: absolute;
+    top: 10px;
+    right: 90px;
+}
+.register{
+    background-color: slateblue;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.buttons, .logout{
+
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
